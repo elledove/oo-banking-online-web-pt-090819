@@ -29,7 +29,7 @@ class Transfer
        receiver.balance += @transfer
     @status = "complete"
   else
-    "Transaction"
+    
       #binding.pry
     end
   end
