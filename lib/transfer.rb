@@ -17,9 +17,9 @@ class Transfer
     receiver.valid?
   end
   
-  def execute_transaction
+  def execute_transaction(money)
     #binding.pry
-    #sender.
+    sender.balance -= money
     
   end
   
