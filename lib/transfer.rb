@@ -27,7 +27,7 @@ class Transfer
     if valid? && receiver.balance > sender.balance 
       sender.balance -= amount
       receiver.balance += amount
-    
+    end
   end
   
   
