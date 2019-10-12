@@ -28,7 +28,7 @@ class Transfer
       sender.balance -= @transfer
        receiver.balance += @transfer
     @status = "complete"
-      binding.pry
+      #binding.pry
     end
   end
   
