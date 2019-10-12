@@ -24,7 +24,7 @@ class Transfer
        #sub amount from sender
        #change the status to complete
        
-    if valid? && receiver.balance > sender.balance && @status == "pending"
+    if valid? && receiver.balance >= sender.balance && @status == "pending"
       sender.balance -= @transfer
        receiver.balance += @transfer
     @status = "complete"
