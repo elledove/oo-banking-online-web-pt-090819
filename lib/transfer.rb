@@ -19,6 +19,10 @@ class Transfer
   
   def execute_transaction
     #binding.pry
+    #if transaction is valid...etc
+       #add amount to reciver 
+       #sub amount from sender
+       #change the status to complete
     
     
   end
