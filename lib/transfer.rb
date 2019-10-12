@@ -24,8 +24,8 @@ class Transfer
        #sub amount from sender
        #change the status to complete
        
-    # if valid? && receiver.balance > sender.balance 
-    #   sender.balance -= amount
+    # if valid? && receiver.balance > sender.balance && 
+    #   sender.balance -= amount 
     #   receiver.balance += amount
       binding.pry
     #end
