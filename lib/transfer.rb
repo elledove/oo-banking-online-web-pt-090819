@@ -24,11 +24,12 @@ class Transfer
        #sub amount from sender
        #change the status to complete
        
-    # if valid? && receiver.balance > sender.balance && 
-    #   sender.balance -= amount 
-    #   receiver.balance += amount
+    if valid? && receiver.balance > sender.balance && @status == "pending"
+      sender.balance -= @transfer
+       receiver.balance += @transfer
+    @status = "complete"
       binding.pry
-    #end
+    end
   end
   
   
