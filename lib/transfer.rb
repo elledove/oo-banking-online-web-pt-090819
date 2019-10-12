@@ -15,8 +15,11 @@ class Transfer
     sender.status == "open" && receiver.status == "open"
     sender.valid?
     receiver.valid?
-    #binding.pry
   end
+  
+  def execute_transaction
+  end
+  
   
   
 end
